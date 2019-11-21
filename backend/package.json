@@ -1,0 +1,27 @@
+{
+  "name": "premium-vanhack-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=production && sequelize-cli db:create && node app.js",
+    "dev": "sequelize-cli db:create && nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Jabir Minjibir <jabir.minjibir@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.0.0",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136
+);
+$bg-primary: #0074d9;
+$body-bg: #f5f5f5;
+// $body-color: #111;
+
+@import "../node_modules/bootswatch/dist/cosmo/variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootswatch/dist/cosmo/bootswatch";
