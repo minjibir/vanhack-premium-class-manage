@@ -13,7 +13,7 @@
   "dependencies": {
     "@hapi/joi": "^16.1.7",
     "config": "^3.2.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "helmet": "^3.21.2",
     "lodash": "^4.17.15",
     "morgan": "^1.9.1",
